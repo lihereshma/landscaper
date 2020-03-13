@@ -150,19 +150,19 @@ header .wrapper {
 /*=================================
   banner section styling starts here
 =================================*/
-.banner figure:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  display: block;
-  background-color: rgba(0,0,0,0.5);
-}
-
 .banner .wrapper { 
   width: 100%; 
   position: relative;
+}
+
+.banner figure:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  display: block;
+  background-color: rgba(0,0,0,0.5);
 }
 
 h2 {
@@ -172,13 +172,15 @@ h2 {
 }
 
 .banner-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
   width: 63%;
+  position: absolute;
+  bottom: 10.3%;
+  left: 50%;
   color: #fff;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 
@@ -191,6 +193,8 @@ h2 {
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;  
+  -webkit-transition: 0.5s ease;  
+  -o-transition: 0.5s ease;  
   transition: 0.5s ease;
 }
 
@@ -202,7 +206,19 @@ h2 {
 /*=================================
   banner section styling ends here
 =================================*/
+/*=================================
+  about section styling starts here
+=================================*/ 
 
+
+
+
+
+
+
+/*=================================
+  about section styling ends here
+=================================*/ 
 
 
 
@@ -224,7 +240,7 @@ h2 {
 
 
 
- /*=================================
+/*=================================
   footer styling ends here
 =================================*/ 
 
