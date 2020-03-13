@@ -106,12 +106,40 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+.hamburger { display: none; } 
 
+.menu li:not(:last-of-type) { margin-right: 7%; }
 
+.menu .active-menu { color: #fff; }
 
+header { 
+  padding: 31px 0;
+  background-color: #363636;
+}
 
+header .wrapper {
+  width: 84%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 
+.menu li a {
+  color: #aea7a4;
+  font-size: 15px;
+  text-transform: uppercase;  
+  -webkit-transition: 0.5s ease;  
+  -o-transition: 0.5s ease;  
+  transition: 0.5s ease;
+}
 
+.menu-wrap {
+  width: 51%;
+  padding-top: 5px;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -148,7 +176,7 @@ li {
 /*media query starts*/
 /*media query for 1024px starts here*/
 @media only screen and (min-width: 1024px) {
-
+  .menu li a:hover { color: #fff; }
 
 
 }  
