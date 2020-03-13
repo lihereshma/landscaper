@@ -150,14 +150,55 @@ header .wrapper {
 /*=================================
   banner section styling starts here
 =================================*/
+.banner figure:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  background-color: rgba(0,0,0,0.5);
+}
 
+.banner .wrapper { 
+  width: 100%; 
+  position: relative;
+}
 
+h2 {
+  margin-bottom: 16px;
+  font:bold 58px 'sans-serif';
+  text-transform: uppercase;
+}
 
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 63%;
+  color: #fff;
+  z-index: 1;
+}
 
+.green-button {
+  padding: 17px 2%;
+  border-radius: 5px;
+  margin-top: 44px;
+  background-color: #69ad31;
+  color: #deeab5;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;  
+  transition: 0.5s ease;
+}
 
-
-
-
+.banner-content span {
+  margin-bottom: 3px;
+  display: block;
+  font-size: 20px;
+}
 /*=================================
   banner section styling ends here
 =================================*/
@@ -192,6 +233,10 @@ header .wrapper {
 @media only screen and (min-width: 1024px) {
   .menu li a:hover { color: #fff; }
 
+  .green-button:hover {  
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    color: #fff; 
+  }
 
 }  
 /*media query for 995px starts here*/
