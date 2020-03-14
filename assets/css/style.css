@@ -209,17 +209,62 @@ h2 {
 /*=================================
   about section styling starts here
 =================================*/ 
+.about .wrapper {
+  width: 84.5%;
+}
+.about {
+  padding: 114px 0;
+}
+.about ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+.uppercase::first-letter {
+  text-transform: capitalize;
+}
 
+h3 {
+  font: bold 32px 'sans-serif';
+  color: #363636;
+}
+.green-heading {
+  color: #69ad31;
+}
+.about p {
+  color: #7c7c7c;
+  font-size: 15px;
+  line-height: 22px;
+}
+.about p:first-of-type { margin-bottom: 20px; }
 
+.line {
+  content:"";
+  width: 68px;
+  margin: 19px 0 39px;
+  display: block;
+  background-color: #69ad31;
+  font-size: 3px;
+  text-indent: -99999px;
+  transition:  0.5s ease;
+}
+.about .green-button {
+  padding: 17px 3%;
+}
 
-
-
-
+.about-images li{
+  width: 40%;
+}
 /*=================================
   about section styling ends here
 =================================*/ 
-
+.about h4 {
+  font: bold 20px 'sans-serif';
+  text-transform: capitalize;    
+}
+ 
+ 
+ 
 
 
 
