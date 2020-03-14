@@ -267,15 +267,16 @@ h3 {
 /*=================================
   services section styling starts here
 =================================*/ 
-.services {
+.services, .gallery {
   text-align: center;
 }
 
-.services span {
+.services span, .gallery span{
   display: block;
 }
 
-.services .line {
+.services .line, .gallery .line {
+  margin: 15px 0;
   display: inline-block;
 }
 
@@ -285,13 +286,42 @@ h3 {
 /*=================================
   gallery section styling starts here
 =================================*/ 
+.gallery h3 { text-transform: capitalize; }
 
+.gallery { padding: 93px 0 76px; }
 
+.tab-list { margin: 60px 0 55px; }
 
+.gallery .section-head span:last-of-type {
+  color: #7c7c7c;
+  font-size: 17px;
+}
 
+.tab-list li {
+  text-transform: uppercase;
+  padding: 10px 2%;
+  background-color: #e5e5e5;
+  color: #7c7c7c;
+  border-radius: 5px;
+  margin: 0 0.9%;
+  transition: 0.5s ease;
+}
 
+.gallery .active-tab {
+  background-color: #69ad31;
+  color: #deeab5;
+}
 
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.tab-content li {
+  margin-bottom: 27px;
+  width: 31.6%;
+}
 /*=================================
   gallery section styling ends here
 =================================*/ 
@@ -325,6 +355,15 @@ h3 {
   .green-button:hover {  
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
     color: #fff; 
+  }
+
+  .tab-list li:hover {
+    background-color: #69ad31;
+    color: #deeab5;
+  }
+
+  .tab-content li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 }  
