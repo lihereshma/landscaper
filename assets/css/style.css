@@ -255,18 +255,46 @@ h3 {
 .about-images li{
   width: 40%;
 }
-/*=================================
-  about section styling ends here
-=================================*/ 
+
 .about h4 {
   font: bold 20px 'sans-serif';
   text-transform: capitalize;    
 }
+/*=================================
+  about section styling ends here
+=================================*/ 
  
- 
- 
+/*=================================
+  services section styling starts here
+=================================*/ 
+.services {
+  text-align: center;
+}
+
+.services span {
+  display: block;
+}
+
+.services .line {
+  display: inline-block;
+}
+
+/*=================================
+  services section styling ends here
+=================================*/ 
+/*=================================
+  gallery section styling starts here
+=================================*/ 
 
 
+
+
+
+
+
+/*=================================
+  gallery section styling ends here
+=================================*/ 
 
 
 
